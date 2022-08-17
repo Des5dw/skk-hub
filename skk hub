@@ -64,3 +64,23 @@ local Window = Library.CreateLib("skk hub", "Ocean")
 		    OtherSection:NewButton("blox fruit chest script", "open blox fruit chest script", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/scriptpastebin/raw/main/chestfarm'),true))()
     end)
+    
+    
+		    OtherSection:NewButton("BIG Paintball", "open BIG Paintball script", function()
+        loadstring(game:HttpGet(('https://www.pastebin.com/raw/PuaaGKsT'),true))()
+    end)
+    
+    
+		    OtherSection:NewButton("Build A Boat For Treasure fast farm", "open Build A Boat For Treasure script", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Deni210/BABFT/main/Ruby%20Hub'),true))()
+    end)
+    
+    
+		    OtherSection:NewButton("Tower of Hell script", "open Tower of Hell script", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/dqvh/dqvh/main/SprinHub'),true))()
+    end)
+    
+    
+		    OtherSection:NewButton("Murder Mystery 2", "open Murder Mystery 2 script", function()
+        loadstring(game:HttpGet(('https://gist.githubusercontent.com/Unawarding/538ddb08bc3fdc27a057341a8e032afe/raw/b3c50fe8d56412c8cc57c8eadc5b56462d5e568d/GUI%2520MM2%2520(Autofarm,%2520ESP,%2520View%2520Killer%2520Sheriff)'),true))()
+    end)
