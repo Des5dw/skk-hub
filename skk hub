@@ -1,0 +1,66 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("skk hub", "Ocean")
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+
+    MainSection:NewButton("delete", "delete any you want", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/A/main/A'))()
+    end)
+
+
+    MainSection:NewButton("Anit AFK", "anitAFK", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
+    end)
+
+
+    MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+
+
+    --LOCAL PLAYER
+    local Player = Window:NewTab("Player")
+    local PlayerSection = Player:NewSection("Player")
+
+    PlayerSection:NewSlider("Walkspeed", "SPEED!!", 500, 16, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end)
+
+    PlayerSection:NewSlider("Jumppower", "JUMP HIGH!!", 350, 50, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end)
+
+    PlayerSection:NewButton("Reset WS/JP", "Resets to all defaults", function()
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end)
+
+	    --Other game
+    local Other = Window:NewTab("Other")
+    local OtherSection = Other:NewSection("Other")
+
+    OtherSection:NewButton("Hohohub", "openHohohub", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'),true))()
+    end)
+
+	    OtherSection:NewButton("king legacy Strikehub", "openStrikehub", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Strikehubv2z/StormSKz/main/All_in_one'),true))()
+    end)
+
+	    OtherSection:NewButton("VGhub", "openVGhub", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'),true))()
+    end)
+
+		    OtherSection:NewButton("pet sim x ThunderZ hub", "openThunderZ hub", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script'),true))()
+    end)
+
+	    OtherSection:NewButton("blox fruit ren hub", "open blox fruit ren hub", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/SHAREHACK/script/main/renhuball'),true))()
+    end)
+
+		    OtherSection:NewButton("blox fruit chest script", "open blox fruit chest script", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/scriptpastebin/raw/main/chestfarm'),true))()
+    end)
