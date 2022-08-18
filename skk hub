@@ -20,6 +20,11 @@ local Window = Library.CreateLib("skk hub", "Ocean")
     end)
 
 
+    MainSection:NewButton("Fates Admin", "Fates Admin", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua'),true))()
+    end)
+    
+    
     --LOCAL PLAYER
     local Player = Window:NewTab("Player")
     local PlayerSection = Player:NewSection("Player")
