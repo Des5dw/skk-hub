@@ -70,6 +70,11 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/scriptpastebin/raw/main/chestfarm'),true))()
     end)
     
+
+	    OtherSection:NewButton("blox fruit TUPER hub", "open blox fruit TUPER hub", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/TUPERX/TUPERX/Main/MenuBF/README.md'),true))()
+    end)
+    
     
 		    OtherSection:NewButton("BIG Paintball", "open BIG Paintball script", function()
         loadstring(game:HttpGet(('https://www.pastebin.com/raw/PuaaGKsT'),true))()
