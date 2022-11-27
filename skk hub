@@ -62,9 +62,6 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script'),true))()
     end)
 
-	    OtherSection:NewButton("blox fruit ren hub", "open blox fruit ren hub", function()
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/SHAREHACK/script/main/renhuball'),true))()
-    end)
 
 		    OtherSection:NewButton("blox fruit chest script", "open blox fruit chest script", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/scriptpastebin/raw/main/chestfarm'),true))()
