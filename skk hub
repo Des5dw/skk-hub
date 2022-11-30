@@ -86,3 +86,4 @@ local Window = Library.CreateLib("skk hub", "Ocean")
 		    OtherSection:NewButton("Tower of Hell script", "open Tower of Hell script", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/dqvh/dqvh/main/SprinHub'),true))()
     end)
+ 
