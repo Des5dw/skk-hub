@@ -58,13 +58,13 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'),true))()
     end)
 
-		    OtherSection:NewButton("pet sim x ThunderZ hub", "openThunderZ hub", function()
+		    OtherSection:NewButton("ThunderZ hub", "openThunderZ hub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script'),true))()
     end)
 
 
 		    OtherSection:NewButton("blox fruit chest script", "open blox fruit chest script", function()
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/scriptpastebin/raw/main/chestfarm'),true))()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/scriptpastebin/raw/main/ChestFarm'),true))()
     end)
     
 
