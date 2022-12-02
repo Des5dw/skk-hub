@@ -77,3 +77,7 @@ local Window = Library.CreateLib("skk hub", "Ocean")
     end)
     
 
+		    GameSection:NewButton("build a boat for treasure", "open build a boat for treasure script", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Deni210/BABFT/main/Ruby%20Hub'),true))()
+    end)
+    
