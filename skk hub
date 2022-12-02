@@ -42,48 +42,38 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
     end)
 
-	    --Other game
-    local Other = Window:NewTab("Other")
-    local OtherSection = Other:NewSection("Other")
+	    --Game
+    local Game = Window:NewTab("Game")
+    local GameSection = Other:NewSection("Game")
 
-    OtherSection:NewButton("Hohohub", "openHohohub", function()
+    GameSection:NewButton("Hohohub", "openHohohub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'),true))()
     end)
 
-	    OtherSection:NewButton("king legacy Strikehub", "openStrikehub", function()
+	    GameSection:NewButton("king legacy Strikehub", "openStrikehub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Strikehubv2z/StormSKz/main/All_in_one'),true))()
     end)
 
-	    OtherSection:NewButton("VGhub", "openVGhub", function()
+	    GameSection:NewButton("VGhub", "openVGhub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'),true))()
     end)
 
-		    OtherSection:NewButton("ThunderZ hub", "openThunderZ hub", function()
+		    GameSection:NewButton("ThunderZ hub", "openThunderZ hub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script'),true))()
     end)
 
-
-		    OtherSection:NewButton("blox fruit chest script", "open blox fruit chest script", function()
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/scriptpastebin/raw/main/ChestFarm'),true))()
+		    GameSection:NewButton("Dark hub", "openDark hub", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'),true))()
     end)
-    
 
-	    OtherSection:NewButton("blox fruit skk hub", "open blox fruit skk hub", function()
+
+	    GameSection:NewButton("blox fruit skk hub", "open blox fruit skk hub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/skk/main/skk%20hub'),true))()
     end)
     
     
-		    OtherSection:NewButton("BIG Paintball", "open BIG Paintball script", function()
-        loadstring(game:HttpGet(('https://www.pastebin.com/raw/PuaaGKsT'),true))()
+		    GameSection:NewButton("BIG Paintball", "open BIG Paintball script", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua'),true))()
     end)
     
-    
-		    OtherSection:NewButton("Build A Boat For Treasure fast farm", "open Build A Boat For Treasure script", function()
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Deni210/BABFT/main/Ruby%20Hub'),true))()
-    end)
-    
-    
-		    OtherSection:NewButton("Tower of Hell script", "open Tower of Hell script", function()
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/dqvh/dqvh/main/SprinHub'),true))()
-    end)
- 
+
