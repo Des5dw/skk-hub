@@ -73,7 +73,7 @@ local Window = Library.CreateLib("skk hub", "Ocean")
     
     
 		    GameSection:NewButton("BIG Paintball", "open BIG Paintball script", function()
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua'),true))()
+        loadstring(game:HttpGet(('https://www.pastebin.com/raw/PuaaGKsT'),true))()
     end)
     
 
