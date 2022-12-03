@@ -33,7 +33,7 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/noclip/main/noclip'),true))()
     end)
 
-            PlayerSection:NewButton("Invisible", "Invisible", function()
+            PlayerSection:NewButton("Q to Invisible", "Invisible", function()
         loadstring(game:HttpGet(('https://github.com/Des5dw/Invisible/blob/main/Invisible'),true))()
     end)
 
@@ -55,7 +55,7 @@ local Window = Library.CreateLib("skk hub", "Ocean")
     	    PlayerSection:NewButton("Full bright", "Full bright", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/fullbright/main/fullbright'),true))()
     end)    
-    	    PlayerSection:NewButton("x ray", "x ray", function()
+    	    PlayerSection:NewButton("x to open x ray", "x ray", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/x-ray/main/x%20ray'),true))()
     end)
 
