@@ -116,6 +116,6 @@ local Window = Library.CreateLib("skk hub", "Ocean")
     local FunSection = Main:NewSection("Fun")
 
 
-    MainSection:NewButton("tp", "tp", function()
+    FunSection:NewButton("tp", "tp", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/tptool/main/tptool'))()
     end)
