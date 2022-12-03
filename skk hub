@@ -29,6 +29,14 @@ local Window = Library.CreateLib("skk hub", "Ocean")
     local Player = Window:NewTab("Player")
     local PlayerSection = Player:NewSection("Player")
 
+            PlayerSection:NewButton("E to noclip", "noclip", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/noclip/main/noclip'),true))()
+    end)
+
+    	    PlayerSection:NewButton("inf jump", "inf jump", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/inf-jump/main/inf%20jump'),true))()
+    end)
+
     PlayerSection:NewSlider("Walkspeed", "SPEED!!", 500, 16, function(s)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
     end)
@@ -41,10 +49,7 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
     end)
-    	    OtherSection:NewButton("E to noclip", "noclip", function()
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/noclip/main/noclip'),true))()
-    end)
-
+    	 
 	    --local Other
     local Other = Window:NewTab("Other")
     local OtherSection = Other:NewSection("Other")
