@@ -123,17 +123,17 @@ local Window = Library.CreateLib("skk hub", "Ocean")
     FunSection:NewButton("Remote Control", "Remote Control", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Remote-Control/main/Remote%20Control'))()
     end)
-    local FunSection = Fun:NewSection("z - make it morning
-x - make it night
-c - clean workspace
-v - heal the player your mouse is pointing at
-f - make the player your mouse is pointing at fat
-n - make everyone fat
-e - annihilate the player your mouse is pointing at
-p - suicide
-k - kill other players
-b - control the player your mouse it pointing at
-r - tp evryone to you
-t - send the player your mouse is pointing at to 'heaven'
-q - spawn pet
-g - spawn a blackhole")
+local FunSection = Fun:NewSection("Remote Control z - make it morning")
+local FunSection = Fun:NewSection("Remote Control x - make it night")
+local FunSection = Fun:NewSection("Remote Control c - clean workspace")
+local FunSection = Fun:NewSection("Remote Control v - heal the player")
+local FunSection = Fun:NewSection("Remote Control f - make the player fat")
+local FunSection = Fun:NewSection("Remote Control n - make everyone fat")
+local FunSection = Fun:NewSection("Remote Control e - annihilate the player")
+local FunSection = Fun:NewSection("Remote Control p - suicide")
+local FunSection = Fun:NewSection("Remote Control k - kill other players")
+local FunSection = Fun:NewSection("Remote Control b - control the player")
+local FunSection = Fun:NewSection("Remote Control r - tp evryone to you")
+local FunSection = Fun:NewSection("Remote Control t - send the player to 'heaven'")
+local FunSection = Fun:NewSection("Remote Control q - spawn pet")
+local FunSection = Fun:NewSection("Remote Control g - spawn a blackhole")
