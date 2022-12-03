@@ -37,6 +37,10 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/inf-jump/main/inf%20jump'),true))()
     end)
 
+    	    PlayerSection:NewButton("fly gui", "fly", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/fly/main/fly'),true))()
+    end)
+
     	    PlayerSection:NewButton("esp", "esp", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/esp/main/esp'),true))()
     end)
