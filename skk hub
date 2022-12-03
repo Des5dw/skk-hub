@@ -120,6 +120,19 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/tptool/main/tptool'))()
     end)
 
-    FunSection:NewButton("Remote Control", "Remote Control", function()
+    FunSection:NewButton("Remote Control", "z - make it morning
+x - make it night
+c - clean workspace
+v - heal the player your mouse is pointing at
+f - make the player your mouse is pointing at fat
+n - make everyone fat
+e - annihilate the player your mouse is pointing at
+p - suicide
+k - kill other players
+b - control the player your mouse it pointing at
+r - tp evryone to you
+t - send the player your mouse is pointing at to 'heaven'
+q - spawn pet
+g - spawn a blackhole", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Remote-Control/main/Remote%20Control'))()
     end)
