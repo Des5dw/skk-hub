@@ -137,3 +137,7 @@ local FunSection = Fun:NewSection("Remote Control r - tp evryone to you")
 local FunSection = Fun:NewSection("Remote Control t - send the player to 'heaven'")
 local FunSection = Fun:NewSection("Remote Control q - spawn pet")
 local FunSection = Fun:NewSection("Remote Control g - spawn a blackhole")
+
+    FunSection:NewButton("Invisible Tool", "Invisible Tool", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Invisible-Tool/main/Invisible%20Tool'))()
+    end)
