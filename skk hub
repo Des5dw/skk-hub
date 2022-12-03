@@ -133,7 +133,7 @@ local Window = Library.CreateLib("skk hub", "Ocean")
     end)
 
     FunSection:NewButton("Neodymn's Draw Tool", "Neodymn's Draw Tool", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Neodymn-s-Draw-Tool/main/Neodymn's%20Draw%20Tool'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Neodymn-s-Draw-Tool/main/Neodymn%20s%20Draw%20Tool'))()
     end)
     
     FunSection:NewButton("Remote Control", "Remote Control", function()
