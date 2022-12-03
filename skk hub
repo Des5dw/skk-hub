@@ -124,6 +124,18 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/tptool/main/tptool'))()
     end)
 
+    FunSection:NewButton("Invisible item Tool", "Invisible Tool", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Invisible-Tool/main/Invisible%20Tool'))()
+    end)
+
+    FunSection:NewButton("Tool Animator", "Tool Animator", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Tool-Animator/main/Tool%20Animator'))()
+    end)
+
+    FunSection:NewButton("Neodymn's Draw Tool", "Neodymn's Draw Tool", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Neodymn-s-Draw-Tool/main/Neodymn's%20Draw%20Tool'))()
+    end)
+    
     FunSection:NewButton("Remote Control", "Remote Control", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Remote-Control/main/Remote%20Control'))()
     end)
@@ -141,15 +153,3 @@ local FunSection = Fun:NewSection("Remote Control r - tp evryone to you")
 local FunSection = Fun:NewSection("Remote Control t - send the player to 'heaven'")
 local FunSection = Fun:NewSection("Remote Control q - spawn pet")
 local FunSection = Fun:NewSection("Remote Control g - spawn a blackhole")
-
-    FunSection:NewButton("Invisible item Tool", "Invisible Tool", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Invisible-Tool/main/Invisible%20Tool'))()
-    end)
-
-    FunSection:NewButton("Tool Animator", "Tool Animator", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Tool-Animator/main/Tool%20Animator'))()
-    end)
-
-    FunSection:NewButton("Neodymn's Draw Tool", "Neodymn's Draw Tool", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Neodymn-s-Draw-Tool/main/Neodymn's%20Draw%20Tool'))()
-    end)
