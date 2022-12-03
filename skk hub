@@ -149,3 +149,7 @@ local FunSection = Fun:NewSection("Remote Control g - spawn a blackhole")
     FunSection:NewButton("Tool Animator", "Tool Animator", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Tool-Animator/main/Tool%20Animator'))()
     end)
+
+    FunSection:NewButton("Neodymn's Draw Tool", "Neodymn's Draw Tool", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Neodymn-s-Draw-Tool/main/Neodymn's%20Draw%20Tool'))()
+    end)
