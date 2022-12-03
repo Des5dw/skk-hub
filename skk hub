@@ -110,3 +110,7 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Deni210/BABFT/main/Ruby%20Hub'),true))()
     end)
     
+
+    --LOCAL Tool
+    local Tool = Window:NewTab("Tool")
+    local ToolSection = Player:NewSection("Tool")
