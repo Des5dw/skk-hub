@@ -119,3 +119,7 @@ local Window = Library.CreateLib("skk hub", "Ocean")
     FunSection:NewButton("tp", "tp", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/tptool/main/tptool'))()
     end)
+
+    FunSection:NewButton("Remote Control", "Remote Control", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Des5dw/Remote-Control/main/Remote%20Control'))()
+    end)
