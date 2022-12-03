@@ -68,45 +68,45 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
     end)
     	 
-	    --local Other
-    local Other = Window:NewTab("Other")
-    local OtherSection = Other:NewSection("Other")
+	    --local Game Script
+    local Other = Window:NewTab("Game Script")
+    local OtherSection = Other:NewSection("Game Script")
 
-    OtherSection:NewButton("Hohohub", "openHohohub", function()
+    Game ScriptSection:NewButton("Hohohub", "openHohohub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'),true))()
     end)
 
-	    OtherSection:NewButton("king legacy Strikehub", "openStrikehub", function()
+	    Game ScriptSection:NewButton("king legacy Strikehub", "openStrikehub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Strikehubv2z/StormSKz/main/All_in_one'),true))()
     end)
 
-	    OtherSection:NewButton("VGhub", "openVGhub", function()
+	    Game ScriptSection:NewButton("VGhub", "openVGhub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'),true))()
     end)
 
-		    OtherSection:NewButton("ThunderZ hub", "openThunderZ hub", function()
+		    Game ScriptSection:NewButton("ThunderZ hub", "openThunderZ hub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script'),true))()
     end)
 
-		    OtherSection:NewButton("Dark hub", "openDark hub", function()
+		    Game ScriptSection:NewButton("Dark hub", "openDark hub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'),true))()
     end)
 
 
-	    OtherSection:NewButton("blox fruit skk hub", "open blox fruit skk hub", function()
+	    Game ScriptSection:NewButton("blox fruit skk hub", "open blox fruit skk hub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/skk/main/skk%20hub'),true))()
     end)
     
-	    OtherSection:NewButton("Proxima-Hub", "open Proxima-Hub", function()
+	    Game ScriptSection:NewButton("Proxima-Hub", "open Proxima-Hub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua'),true))()
     end)
         
-		    OtherSection:NewButton("BIG Paintball", "open BIG Paintball script", function()
+		    Game ScriptSection:NewButton("BIG Paintball", "open BIG Paintball script", function()
         loadstring(game:HttpGet(('https://www.pastebin.com/raw/PuaaGKsT'),true))()
     end)
     
 
-		    OtherSection:NewButton("build a boat for treasure", "open build a boat for treasure script", function()
+		    Game ScriptSection:NewButton("build a boat for treasure", "open build a boat for treasure script", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Deni210/BABFT/main/Ruby%20Hub'),true))()
     end)
     
