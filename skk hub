@@ -69,8 +69,8 @@ local Window = Library.CreateLib("skk hub", "Ocean")
     end)
     	 
 	    --local Game Script
-    local Other = Window:NewTab("Game Script")
-    local OtherSection = Other:NewSection("Game Script")
+    local Game Script = Window:NewTab("Game Script")
+    local Game ScriptSection = Other:NewSection("Game Script")
 
     Game ScriptSection:NewButton("Hohohub", "openHohohub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'),true))()
