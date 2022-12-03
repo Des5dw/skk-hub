@@ -41,6 +41,9 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
     end)
+    	    OtherSection:NewButton("E to noclip", "noclip", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/noclip/main/noclip'),true))()
+    end)
 
 	    --local Other
     local Other = Window:NewTab("Other")
