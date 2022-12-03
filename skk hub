@@ -113,7 +113,7 @@ local Window = Library.CreateLib("skk hub", "Ocean")
 
     -- Fun
     local Fun = Window:NewTab("Fun")
-    local FunSection = Main:NewSection("Fun")
+    local FunSection = Fun:NewSection("Fun")
 
 
     FunSection:NewButton("tp", "tp", function()
