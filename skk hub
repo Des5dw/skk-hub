@@ -160,3 +160,12 @@ local FunSection = Fun:NewSection("Draw Tool [F] - Clear")
 local FunSection = Fun:NewSection("Draw Tool [R] - Rainbow")
 local FunSection = Fun:NewSection("Draw Tool [X] - Neon Glow")
 local FunSection = Fun:NewSection("Draw Tool [Q] - Toxicity")
+
+
+    -- made
+local made = Window:NewTab("made")
+local madeSection = made:NewSection("skk hub v1.2")
+local madeSection = made:NewSection("made by skk")
+local madeSection = made:NewSection("update 2022/12/4")
+    
+    
