@@ -96,7 +96,10 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'),true))()
     end)
 
-
+	    OtherSection:NewButton("blox fruit CFrameHub", "open blox fruit CFrameHub", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruitV2.lua'),true))()
+    end)
+    
 	    OtherSection:NewButton("blox fruit skk hub", "open blox fruit skk hub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/skk/main/skk%20hub'),true))()
     end)
