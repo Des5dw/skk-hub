@@ -167,6 +167,6 @@ local FunSection = Fun:NewSection("Draw Tool [Q] - Toxicity")
 
     -- Credits
 local Credits = Window:NewTab("Credits")
-local CreditsSection = Credits:NewSection("skk hub v1.2")
+local CreditsSection = Credits:NewSection("skk hub v1.3")
 local CreditsSection = Credits:NewSection("made by skk")
-local CreditsSection = Credits:NewSection("Last updated 2022/12/4")
+local CreditsSection = Credits:NewSection("Last updated 2022/12/27")
