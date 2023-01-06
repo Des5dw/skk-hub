@@ -80,7 +80,7 @@ local Window = Library.CreateLib("skk hub", "Ocean")
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'),true))()
     end)
 
-	    OtherSection:NewButton("king legacy Strikehub", "openStrikehub", function()
+	    OtherSection:NewButton("Strikehub", "openStrikehub", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Strikehubv2z/StormSKz/main/All_in_one'),true))()
     end)
 
