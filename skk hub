@@ -34,7 +34,7 @@ local Window = Library.CreateLib("skk hub", "Ocean")
     end)
 
             PlayerSection:NewButton("Q to Invisible", "Invisible", function()
-        loadstring(game:HttpGet(('https://github.com/Des5dw/Invisible/blob/main/Invisible'),true))()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Des5dw/Invisible/main/Invisible'),true))()
     end)
 
     	    PlayerSection:NewButton("inf jump", "inf jump", function()
